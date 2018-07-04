@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<package unique-identifier="uid" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:asd="http://www.idpf.org/asdfaf">
+	<metadata>
+		<dc-metadata  xmlns:dc="http://purl.org/metadata/dublin_core" xmlns:oebpackage="http://openebook.org/namespaces/oeb-package/1.0/">
+			<dc:Title>Shri Vishnu Sahasranamam (Sanskrit)</dc:Title>
+			<dc:Language>en</dc:Language>
+			<dc:Creator>Anonymous</dc:Creator>
+			<dc:Copyrights>Anonymous</dc:Copyrights>
+			<dc:Publisher>Anonymous</dc:Publisher>
+			<x-metadata>
+				<EmbeddedCover>image/cover.jpg</EmbeddedCover>
+			</x-metadata>
+		</dc-metadata>
+	</metadata>
+	<manifest>
+		<item id="ch1" media-type="text/x-oeb1-document" href="html/ch1.html"></item> 
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="ch1"/>
+	</spine>
+	<guide>
+		<reference type="text" title="Book" href="html/ch1.html"/>
+	</guide>
+</package>
